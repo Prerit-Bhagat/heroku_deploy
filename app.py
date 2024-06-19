@@ -8,7 +8,7 @@ with open('clf5.pkl','rb') as file:
 app = Flask(__name__)
 
 @app.route('/')
-def home():
+def index():
     return 'Hello, World!'
 
 
@@ -39,5 +39,5 @@ hours of sleep
 heart rate
 Stress Levels
 '''
-if __name__=='__main__':
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0')
