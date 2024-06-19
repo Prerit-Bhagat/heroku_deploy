@@ -1,6 +1,6 @@
 from flask import Flask,request,jsonify # type: ignore
 import pickle
-import numpy as np
+import numpy as np # type: ignore
 
 with open('clf5.pkl','rb') as file:
     model=pickle.load(file)
