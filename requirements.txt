@@ -3,4 +3,6 @@ pandas
 flask
 scikit-learn
 gunicorn
+sklearn
+scipy
 matplotlib
